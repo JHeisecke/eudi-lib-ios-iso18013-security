@@ -13,10 +13,10 @@
     {
       "identity" : "swift-asn1",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-asn1.git",
+      "location" : "https://github.com/JHeisecke/swift-asn1.git",
       "state" : {
-        "revision" : "eb50cbd14606a9161cbc5d452f18797c90ef0bab",
-        "version" : "1.7.0"
+        "branch" : "main",
+        "revision" : "c710ba87cb1c75c5e6151d45e227f17aca3828a9"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/JHeisecke/swift-certificates.git",
       "state" : {
         "branch" : "fix/swift-6.2-library-evolution-inlinable",
-        "revision" : "459b2ae22ff8c372c080c92335da187fe2adc17a"
+        "revision" : "dea868832bff165accf2256d53a102c186dcbff0"
       }
     },
     {
