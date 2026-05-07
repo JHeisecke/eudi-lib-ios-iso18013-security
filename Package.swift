@@ -13,7 +13,6 @@ let package = Package(
             targets: ["MdocSecurity18013"]),
     ],
     dependencies: [
-        // .package(path: "../eudi-lib-ios-iso18013-data-model"),
         .package(url: "https://github.com/JHeisecke/eudi-lib-ios-iso18013-data-model.git", branch: "main"),
         .package(url: "https://github.com/JHeisecke/swift-certificates.git", branch: "fix/swift-6.2-library-evolution-inlinable"),
         .package(url: "https://github.com/JHeisecke/swift-collections.git", branch: "main"),
