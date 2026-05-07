@@ -1,5 +1,5 @@
 {
-  "originHash" : "ff0e5545230a14ac50ead7ad0922bcbd7c03dc729de41f5b5db1a1db2a561564",
+  "originHash" : "2f42efbf15fbf78a1141bc50eacf2175b0fb87a1b978e6665cf294676ad45b3a",
   "pins" : [
     {
       "identity" : "eudi-lib-ios-iso18013-data-model",
@@ -25,25 +25,25 @@
       "location" : "https://github.com/JHeisecke/swift-certificates.git",
       "state" : {
         "branch" : "fix/swift-6.2-library-evolution-inlinable",
-        "revision" : "dea868832bff165accf2256d53a102c186dcbff0"
+        "revision" : "a34dea382a8e8a6393f01c47f8d8fad69a23cf8b"
       }
     },
     {
       "identity" : "swift-collections",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-collections.git",
+      "location" : "https://github.com/JHeisecke/swift-collections.git",
       "state" : {
-        "revision" : "6675bc0ff86e61436e615df6fc5174e043e57924",
-        "version" : "1.4.1"
+        "branch" : "main",
+        "revision" : "77e99ff65ab12b3c2cd4f64b875965209f133d4c"
       }
     },
     {
       "identity" : "swift-crypto",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-crypto.git",
+      "location" : "https://github.com/JHeisecke/swift-crypto.git",
       "state" : {
-        "revision" : "1b6b2e274e85105bfa155183145a1dcfd63331f1",
-        "version" : "4.5.0"
+        "branch" : "fix/swift-6.2-library-evolution-inlinable",
+        "revision" : "018ba04c8c3f4639735a4637110f55822557be32"
       }
     },
     {
