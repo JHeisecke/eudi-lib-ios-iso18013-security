@@ -31,6 +31,8 @@ func getHash(_ d: DigestAlgorithmKind, bytes: [UInt8]) -> Data {
     case .SHA512:
         let h = SHA512.hash(data: Data(bytes))
         return h.withUnsafeBytes { (p: UnsafeRawBufferPointer) -> Data in Data(p[0..<p.count]) }
+    @unknown default:
+        return Data()
     }
 }
 

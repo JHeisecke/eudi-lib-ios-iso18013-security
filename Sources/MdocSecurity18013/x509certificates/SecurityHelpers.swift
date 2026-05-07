@@ -133,6 +133,8 @@ public class SecurityHelpers {
       return (true, [])
     case .couldNotValidate(let policyFailures):
       return (false, policyFailures.map { $0.policyFailureReason.description })
+    @unknown default:
+      return (false, [])
     }
   }
 

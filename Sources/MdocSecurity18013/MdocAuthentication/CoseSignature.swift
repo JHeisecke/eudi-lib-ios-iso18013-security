@@ -57,6 +57,8 @@ extension Cose {
 			let signingPubKey = try P521.Signing.PublicKey(x963Representation: publicKey_x963)
 			let ecdsa_signature = try P521.Signing.ECDSASignature(rawRepresentation: signature)
 			b = signingPubKey.isValidSignature(ecdsa_signature, for: signatureStruct)
+		@unknown default:
+			b = false
 		}
 		return b
 	}

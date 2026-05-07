@@ -50,6 +50,8 @@ extension Cose {
 		case .hmac512:
             let hashCode = CryptoKit.HMAC<SHA512>.authenticationCode(for: dataToAuthenticate, using: key)
 			mac0Value = hashCode.withUnsafeBytes{ (p: UnsafeRawBufferPointer) -> Data in  Data(p[0..<p.count]) }
+		@unknown default:
+			mac0Value = Data()
 		}
 		return mac0Value
 	}
